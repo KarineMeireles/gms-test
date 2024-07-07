@@ -118,7 +118,7 @@ describe('US-001-Funcionalidade: Busca de filmes', () => {
 
 
 
-it.only('Busca de filmes sem resultados', () => {
+it('Busca de filmes sem resultados', () => {
   cy.visit('http://127.0.0.1:8080/')
   cy.get('#search-input').type("///")
   cy.get('#search-button').click()
