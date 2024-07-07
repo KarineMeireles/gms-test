@@ -5,9 +5,14 @@ describe('US-012-Funcionalidade: Cadastro de membros', () => {
     cy.visit('http://127.0.0.1:8080/')
     cy.get('#signup-firstname').type('Karine')
     cy.get('#signup-lastname').type('Antonio')
-    cy.get('#signup-email').type('karinelaa@teste.com')
+    cy.get('#signup-email').type('karinelam@teste.com')
     cy.get('#signup-phone').type('11925256699')
     cy.get('#signup-password').type('Kla12345!')
     cy.get('#signup-button').click()
+    cy.get('#signup-response').should("contain" , "Cadastro realizado com sucesso!")
+
+
+
+
   })
 })
