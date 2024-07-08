@@ -1,0 +1,39 @@
+[
+    {
+      "titulo": "Pulp Fiction: Tempo de Cães Violentos",
+      "ano": 1994,
+      "descricao": "Dois mafiosos, um boxeador e uma mulher misteriosa se entrelaçam em uma série de histórias violentas e cômicas em Los Angeles."
+    },
+    {
+      "titulo": "Parasita",
+      "ano": 2019,
+      "descricao": "Uma família pobre se infiltra em uma casa de ricos e se envolve em uma teia complexa de segredos e desejos."
+    },
+    
+  
+    {
+      "titulo": "Inception",
+      "ano": 2010,
+      "descricao": "Um ladrão profissional que rouba informações subconscientes entra no perigoso mundo da espionagem corporativa."
+    },
+    {
+      "titulo": "Interstellar",
+      "ano": 2014,
+      "descricao": "Um grupo de astronautas viaja através de um buraco de minhoca em busca de um novo lar para a humanidade."
+    },
+    {
+      "titulo": "The Matrix",
+      "ano": 1999,
+      "descricao": "Um hacker de computador descobre que o mundo que ele vive é uma simulação e se junta a um grupo de rebeldes para lutar contra as máquinas que o controlam."
+    },
+    {
+      "titulo": "Jurassic Park",
+      "ano": 1993,
+      "dinossauro": "Um bilionário cria um parque temático com dinossauros clonados, mas o caos se instala quando as criaturas escapam."
+    },
+    {
+      "titulo": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+      "ano": 2005,
+      "descricao": "Quatro irmãos viajam para um mundo mágico chamado Nárnia e se unem a um leão falante para libertar a terra do governo de uma bruxa malvada."
+    }
+  ]
