@@ -65,7 +65,7 @@ describe('US-012-Funcionalidade: Cadastro de membros', () => {
   it('Deve validar a mensagem e erro Senha não pode estar vazia', () => {
     var email = `karine${Date.now()}@teste.com`
     cy.preencherCadastro( 'Karine' , 'Antonio' , email , '11925256042' , '')
-    cy.get('#signup-response').should('contain' , 'Senha não pode estar vazia')
+    cy.get('#signup-response').should('contain' , 'is not allowed to be empty')
   });
 
 
